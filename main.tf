@@ -2,5 +2,5 @@ provider "local" {}
 
 resource "local_file" "demo" {
   filename = "hello.txt"
-  content  = "Hello world!"
+  content  = "Hello world to you!"
 }
